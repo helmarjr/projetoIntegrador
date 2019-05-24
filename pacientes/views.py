@@ -4,6 +4,6 @@ from django.shortcuts import render
 
 
 def lista_pacientes(request):
-    return render(request, 'pacientes/pacientes_list.html')
+    return render(request, 'pacientes/pacientes_list.html', {})
 
 
