@@ -1,0 +1,13 @@
+{% extends 'pacientes/base.html' %}
+
+{% block title %} Pacientes - Detalhes {% endblock %}
+
+{% block body %}
+    <div class="row">
+        <div class="col-5">
+            <h1>{{ paciente.nome }}</h1>
+            <p>Responsável: <b>{{ paciente.responsavel }}</b></p>
+
+        </div>
+    </div>
+{% endblock %}
